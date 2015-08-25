@@ -2,6 +2,9 @@ Lita.configure do |config|
   # The name your robot will use.
   config.robot.name = "Ironbot"
 
+  # Add HTTP port configuration for deployment to Heroku.
+  config.http.port = ENV["PORT"]
+
   # The locale code for the language to use.
   # config.robot.locale = :en
 
