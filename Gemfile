@@ -5,6 +5,9 @@ ruby '2.1.6'
 gem "lita"
 gem "lita-slack"
 
+## Plugins!
+gem "lita-debug-queue"
+
 group :development do
   gem "foreman"
 end

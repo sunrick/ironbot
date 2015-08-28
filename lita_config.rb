@@ -32,7 +32,11 @@ Lita.configure do |config|
   # config.redis.host = "127.0.0.1"
   # config.redis.port = 1234
 
-  ## Example: Set configuration for any loaded handlers. See the handler's
-  ## documentation for options.
-  # config.handlers.some_handler.some_config_key = "value"
+  ## Handler Configuration
+  config.handlers.debug_queue.classrooms = {
+    "brit" => "sept2015_rails",
+    "tim"  => "sept2015_frontend",
+    "jd"   => "sept2015_frontend",
+    "jo"   => "sept2015_mobile"
+  }
 end
