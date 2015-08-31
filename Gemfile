@@ -6,7 +6,7 @@ gem "lita"
 gem "lita-slack"
 
 ## Plugins!
-gem "lita-debug-queue", '>= 0.1.1'
+gem "lita-debug-queue", '>= 0.1.2'
 
 group :development do
   gem "foreman"
