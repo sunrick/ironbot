@@ -7,6 +7,7 @@ gem "lita-slack"
 
 ## Plugins!
 gem "lita-debug-queue", '>= 0.1.3'
+gem "lita-keepalive"
 
 group :development do
   gem "foreman"
