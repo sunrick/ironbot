@@ -41,5 +41,4 @@ Lita.configure do |config|
   }
 
   config.handlers.keepalive.url = "http://fathomless-brushlands-9507.herokuapp.com/lita/info"
-  config.handlers.keepalive.minutes = 20
 end
