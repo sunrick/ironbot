@@ -35,6 +35,7 @@ Lita.configure do |config|
   ## Handler Configuration
   config.handlers.debug_queue.classrooms = {
     "brit" => "sept2015_rails",
+    "sunrick" => "sept2015_rails",
     "tim"  => "sept2015_frontend",
     "jd"   => "sept2015_frontend",
     "jo"   => "sept2015_mobile"
